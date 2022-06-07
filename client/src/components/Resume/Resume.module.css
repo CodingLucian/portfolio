@@ -1,0 +1,23 @@
+.resumeContainer{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  width: 40vw;
+  text-align: center;
+}
+
+.txtLeft{
+  text-align: left;
+  /* margin-left: 10vw;
+  margin-right: 10vw; */
+}
+
+h2{
+  text-decoration: underline;
+}
+
+h1{
+  text-decoration: underline;
+}

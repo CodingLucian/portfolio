@@ -1,0 +1,89 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+hr{
+  color: red;
+}
+
+.halfTxt{
+  color: rgb(0, 0, 0);
+  width: 45vw;
+  font-size: 25px;
+  padding: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.descriptionTxt{
+  font-style: italic;
+}
+
+.halfImg{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45vw;
+}
+
+/* .CheckIt {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img:hover .CheckIt {
+  visibility: visible;
+  opacity: 1;
+} */
+
+ .img{
+  width: 800px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0,0.3);
+}
+.img:hover{
+  width: 805px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+  transition: ease 03ms;
+} 
+
+.titleR{
+  text-decoration: underline black;
+  text-align: right;
+  
+}
+
+.titleL{
+  text-decoration: underline black;
+  text-align: left;
+}

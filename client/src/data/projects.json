@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Hostel App",
+    "txt": "This was my first frontend developer project working in a team. We did it from scratch as the final job for the Henry bootcamp. this project has a client interface but also an administration side that you can see on the video. Please feel free to give me some feedback. Thanks.",
+    "img": "https://github.com/CodingLucian/CodingLucian/raw/main/img/soyHostel.png",
+    "url": "https://soyhostel.com/",
+    "video": "https://vimeo.com/708793487"
+  },
+  {
+    "title": "Countries App",
+    "txt": "This was my first full stack developer work. I did it from scratch to use as the final presentation for the Henry bootcamp using all the knowlendge I got from it. Please feel free to give me some feedback. Thanks.",
+    "img": "https://github.com/CodingLucian/CodingLucian/raw/main/img/Countries01.png",
+    "url": "https://countries-pi-lcd.vercel.app/",
+    "video": "https://vimeo.com/700479828"
+  },
+  {
+    "title": "Accounting App",
+    "txt": "I developed this small app as a challenge to get an extra full stack developer certification from Alkemy. The goal was to be able to register a user and input incomes and expenses, edit and delet them and visualise the las 10 movements on the home page. Please feel free to give me some feedback. Thanks.",
+    "img": "https://github.com/CodingLucian/CodingLucian/raw/main/img/accounting.jpg",
+    "url": "https://countries-pi-lcd.vercel.app/",
+    "video": "https://vimeo.com/700479828"
+  }
+]
