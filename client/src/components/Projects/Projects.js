@@ -14,7 +14,7 @@ export default function Projects() {
   // }
   return (
     <div className={styles.container}>
-      <h1>Somples of my work:</h1>
+      <h1 className={styles.titlethin}>Somples of my work:</h1>
       {
         
         projectsData.map((p)=> {

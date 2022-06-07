@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.titlethin{
+  font-weight: 100px;
+  font-style: italic;
+}
+
 .modal {
   position: fixed;
   display: flex;
