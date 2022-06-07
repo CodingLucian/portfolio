@@ -11,22 +11,18 @@
 }
 
 .name {
-  font-size: 50px;
+  font-size: 50px; 
   margin-bottom: 0px;
   position: relative;
-  animation-name: example;
+  /* animation-name: example;
   animation-duration: 1s;  
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
 }
   
-@keyframes example {
-  from {right: -1900px;}
-  to {right: 0px;}
-}
+
 
 .row{
-  display: flex;
-  flex-direction: row;
+  
   margin-top: 3rem;
   margin-bottom: 3rem;
   color: black;
@@ -36,7 +32,22 @@
   padding-bottom: 1rem;
   padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.3);
+  
+}
+
+.move{
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+
+}
+@keyframes example {
+  from {right: -1900px;}
+  to {right: 0px;}
 }
 
 @media screen and (max-width: 992px) {

@@ -14,6 +14,7 @@ export default function Projects() {
   // }
   return (
     <div className={styles.container}>
+      <h1>Somples of my work:</h1>
       {
         
         projectsData.map((p)=> {
