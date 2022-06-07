@@ -16,8 +16,6 @@
   {
     "title": "Accounting App",
     "txt": "I developed this small app as a challenge to get an extra full stack developer certification from Alkemy. The goal was to be able to register a user and input incomes and expenses, edit and delet them and visualise the las 10 movements on the home page. Please feel free to give me some feedback. Thanks.",
-    "img": "https://github.com/CodingLucian/CodingLucian/raw/main/img/accounting.jpg",
-    "url": "https://countries-pi-lcd.vercel.app/",
-    "video": "https://vimeo.com/700479828"
+    "img": "https://github.com/CodingLucian/CodingLucian/raw/main/img/accounting.jpg"
   }
 ]
