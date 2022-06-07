@@ -5,6 +5,25 @@
   margin-right: 50px;
 }
 
+.fullStack{
+  margin-top: 0px;
+  margin-left: 0.5rem;
+}
+
+.name {
+  font-size: 50px;
+  margin-bottom: 0px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
+}
+  
+@keyframes example {
+  from {right: -1900px;}
+  to {right: 0px;}
+}
+
 .row{
   display: flex;
   flex-direction: row;
@@ -13,6 +32,8 @@
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-variant: small-caps;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.3);
   justify-content: space-around;
@@ -26,8 +47,8 @@
 }
 
 .img{
-  width: 100px;
-  height: 100px;
+  width: 65px;
+  height: 65px;
   border-radius: 10px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
@@ -50,44 +71,12 @@
 }
 
 .imgContainer{
-  /* display: flex;
-  flex-direction: row; */
   margin-right: 3rem;
   align-self: center;
   border: 1px solid black;
   padding: 40px;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.3);
-}
-/* .fullStack {
-  margin-top: 0px;
-  margin-left: 0.5rem;
-  position: relative;
-  animation: example2 5s infinite;;
-  animation-delay: 2s;
-  
-}
-  
-@keyframes example2 {
-  10% {font-size: 30px;}
-} */
-.fullStack{
-  margin-top: 0px;
-  margin-left: 0.5rem;
-}
-
-.name {
-  font-size: 80px;
-  margin-bottom: 0px;
-  position: relative;
-  animation-name: example;
-  animation-duration: 1s;  
-  animation-fill-mode: forwards;
-}
-  
-@keyframes example {
-  from {right: -1900px;}
-  to {right: 0px;}
 }
 
 .technologies{

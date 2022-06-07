@@ -89,7 +89,7 @@ export default function Resume() {
             Video edition / motion graphics / digitalization and synchronization / photographic
             retouching / other related tasks
           </li>
-          You can check my personal Reel <a href="https://www.youtube.com/watch?v=7lspjjVF82E" target="_blanck">here</a> 
+          You can check my personal Reel <a href="https://www.youtube.com/watch?v=7lspjjVF82E" target="_blanck" rel="noreferrer nofollow">here</a> 
         </ul>
         <br />
         <h3>
@@ -114,7 +114,7 @@ export default function Resume() {
         </h2>
         <ul className={styles.txtLeft}>
           <li>
-            Full Stack Web Developer. Henry Bootcamp. 700 hours of technical-practical lessons. 2022 - <a href="https://certificates.soyhenry.com/cert?id=1eb3b5a3-8593-4bf7-ab5b-aefb88b2c9f8">Certificate</a> 
+            Full Stack Web Developer. Henry Bootcamp. 700 hours of technical-practical lessons. 2022 - <a href="https://certificates.soyhenry.com/cert?id=1eb3b5a3-8593-4bf7-ab5b-aefb88b2c9f8" target="_blanck" rel="noreferrer nofollow">Certificate</a> 
           </li>
           <li>
             Computer Engineering, University of Belgrano, Buenos Aires,. 2001 - 2003.
@@ -130,7 +130,7 @@ export default function Resume() {
         </h2>
         <ul className={styles.txtLeft}>
           <li>
-            English C2 - <a href="https://www.efset.org/cert/91NWSe">Certificate</a> 
+            English C2 - <a href="https://www.efset.org/cert/91NWSe" target="_blanck" rel="noreferrer nofollow">Certificate</a> 
           </li>
           <li>
             Spanish - Native

@@ -12,7 +12,7 @@ function Modal({ children, setLocalModal }) {
   };
   useEffect(() => {
     return () => {
-      setLocalModal(false);
+      // setLocalModal(false);
       setDetails({});
     };
   }, []);
@@ -27,6 +27,9 @@ function Modal({ children, setLocalModal }) {
           Close
         </button>
         {children}
+        <button className={styles.cancel} onClick={onCancel}>
+          Close
+        </button>
       </div>
     </div>,
     document.getElementById('modal')

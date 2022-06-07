@@ -20,8 +20,10 @@ hr{
 .halfTxt{
   color: rgb(0, 0, 0);
   width: 45vw;
-  font-size: 25px;
-  padding: 25px;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-style: italic;
   text-align: center;
 }
@@ -37,6 +39,31 @@ hr{
   align-items: center;
   width: 45vw;
 }
+
+ .img{
+  width: 650px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0,0.3);
+}
+.img:hover{
+  width: 655px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+  transition: ease 03ms;
+} 
+
+.titleR{
+  text-decoration: underline black;
+  /* text-align: right; */
+}
+
+.titleL{
+  text-decoration: underline black;
+  /* text-align: left; */
+}
+
 
 /* .CheckIt {
   position: absolute;
@@ -62,28 +89,3 @@ hr{
   visibility: visible;
   opacity: 1;
 } */
-
- .img{
-  width: 800px;
-  height: auto;
-  border-radius: 25px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0,0.3);
-}
-.img:hover{
-  width: 805px;
-  height: auto;
-  border-radius: 25px;
-  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
-  transition: ease 03ms;
-} 
-
-.titleR{
-  text-decoration: underline black;
-  text-align: right;
-  
-}
-
-.titleL{
-  text-decoration: underline black;
-  text-align: left;
-}

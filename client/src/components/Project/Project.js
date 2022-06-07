@@ -19,19 +19,19 @@ export default function Project({txt, url, img, title, id, video/* , openModal *
             <div>
               {txt} <br/>
               Watch presentation video 
-              <a href={video} target="_blank"> here </a>
+              <a href={video} target="_blank" rel="noreferrer nofollow"> here </a>
             </div> 
           </div>
           <div className={styles.halfImg}>
-            <a href={url} target="_blank">
+            <a href={url} target="_blank" rel="noreferrer nofollow">
               <img className={styles.img} src={img} alt='Imagen'/>
             </a>
-          </div>
+          </div> 
         </div> 
       ):(
         <div className={styles.container}>
           <div className={styles.halfImg}>
-            <a href={url} target="_blank">
+            <a href={url} target="_blank" rel="noreferrer nofollow">
               <img className={styles.img} src={img} alt='Imagen'/>
             </a>
           </div>
@@ -40,7 +40,7 @@ export default function Project({txt, url, img, title, id, video/* , openModal *
             <div>
               {txt} <br/>
               Watch presentation video 
-              <a href={video} target="_blank"> here </a>
+              <a href={video} target="_blank" rel="noreferrer nofollow"> here </a>
             </div>
           </div>
         </div> 
