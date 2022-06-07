@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import styles from './Modal.module.css';
 import { GlobalContext } from '../../GlobalContext/GlobalContext';
 
-function Modal({ children, setLocalModal }) {
+function Modal({ children, setLocalModal, cancel }) {
   const { setDetails } = useContext(GlobalContext);
 
   const onCancel = () => {
@@ -23,13 +23,16 @@ function Modal({ children, setLocalModal }) {
         className={styles.modalBackground}
         onClick={(e) => e.stopPropagation()}
       >
-        <button className={styles.cancel} onClick={onCancel}>
+        {cancel!=="one" &&
+          <button className={styles.cancel} onClick={onCancel}>
           Close
         </button>
+        }
         {children}
         <button className={styles.cancel} onClick={onCancel}>
           Close
-        </button>
+        </button> 
+        
       </div>
     </div>,
     document.getElementById('modal')
