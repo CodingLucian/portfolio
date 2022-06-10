@@ -17,8 +17,10 @@ export default function NavBar() {
   };
 
   const handleContactClick = function (e) {
-    e.preventDefault();
-    setLocalModalContact((prevState) => !prevState);
+    // e.preventDefault();
+    // setLocalModalContact((prevState) => !prevState);
+    const target = document.getElementById('contact');
+    target.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -28,6 +30,12 @@ export default function NavBar() {
       </button>
       <button className={styles.btn} onClick={(e)=>handleContactClick(e)} name="contact">
         Contact me
+      </button>
+      <button className={styles.btn}>
+        Photography
+      </button>
+      <button className={styles.btn}>
+        About me
       </button>
       {!!localModal && (
         <Modal setLocalModal={setLocalModal}>

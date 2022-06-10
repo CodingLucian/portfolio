@@ -1,10 +1,12 @@
 import styles from './App.module.css';
-// import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
+import infoCarousel from './data/carousel.json';
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 import Projects from './components/Projects/Projects';
-// import SoyHostel from './components/SoyHostel/SoyHostel';
+// import Slider from './components/Slider/Slider';
 
+const carousel = infoCarousel;
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <NavBar/>
       <Header/>
       <Projects/>
-      {/* <Resume/> */}
+      {/* <Slider images={carousel}/> */}
+      <Contact/>
       {/* <SoyHostel/> */}
     </div>
   );
