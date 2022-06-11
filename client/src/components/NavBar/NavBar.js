@@ -29,25 +29,25 @@ export default function NavBar() {
 
   return (
     <div className={styles.container}>
+      <Link to={'/'} className={styles.lnk}>
+        <button className={styles.btn} onClick={(e)=>handleClick(e)} name="developer">
+          Developer
+        </button>
+      </Link>
       <button className={styles.btn} onClick={(e)=>handleResumeClick(e)} name="resume">
         Resume
       </button>
       <button className={styles.btn} onClick={(e)=>handleClick(e)} name="contact">
         Contact me
       </button>
+      <button className={styles.btn} onClick={(e)=>handleClick(e)} name="about">
+        About me
+      </button>
       <Link to={'/photography'} className={styles.lnk}>
         <button className={styles.btn}>
           <span className={styles.tachado}>Photography</span>
         </button>
       </Link>
-      <Link to={'/'} className={styles.lnk}>
-        <button className={styles.btn} onClick={(e)=>handleClick(e)} name="developer">
-          Developer
-        </button>
-      </Link>
-      <button className={styles.btn} onClick={(e)=>handleClick(e)} name="about">
-        About me
-      </button>
       <button className={styles.end}>
         <i className="bi bi-eye"></i>
       </button>
