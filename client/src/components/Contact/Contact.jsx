@@ -36,7 +36,7 @@ export default function Contact() {
               >
                 <i className="bi bi-envelope"></i>
               </a>
-              <a
+              <a 
                 className={styles.link}
                 target="_blank"
                 rel="noreferrer nofollow"
