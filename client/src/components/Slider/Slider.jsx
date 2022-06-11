@@ -1,56 +1,24 @@
-import React, { useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/navigation';
-import 'swiper/css/thumbs';
-import 'swiper/css/autoplay';
-import './Slider.css'
-import { Autoplay, FreeMode, Thumbs } from 'swiper';
+import React from 'react';
+import styles from './Slider.module.css';
+import img01 from '../../images/photos/01.JPG';
+import img02 from '../../images/photos/02.JPG';
+import img03 from '../../images/photos/03.JPG';
 
-export default function Slider({ images }) { 
-  // const form = document.querySelector('#form');
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  // const handleClick = () => form.scrollIntoView({ behavior: 'smooth' });
+
+export default function Slider() {
   return (
-    <>
-      <Swiper
-        loop={true}
-        spaceBetween={0}
-        thumbs={{ swiper: thumbsSwiper }}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        modules={[FreeMode, Thumbs, Autoplay]}
-        className="bg-slider"
-      >
-        {images?.map((item) => (
-          <SwiperSlide key={item.id}>
-            <img src={item.url} alt="slider" />
-            <div className="text-content">
-              <h2 className="title">{item.title}</h2>
-              <p>{item.description}</p>
-              {/* <button className="button" onClick={handleClick}>
-                View Avalaible <i className="bi bi-arrow-right-short"></i>
-              </button> */}
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-      <Swiper
-        onSwiper={setThumbsSwiper}
-        loop={true}
-        spaceBetween={0}
-        slidesPerView={0}
-        modules={[FreeMode, Thumbs, Autoplay]}
-        className="bg-slider-thumbs"
-      >
-        <div className="thumbs-container">
-          {images?.map((item) => (
-            <SwiperSlide key={item.id}>
-              <img src={item.url} alt="slider" />
-            </SwiperSlide>
-          ))}
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src={img01} class="d-block w-10" alt="img01"/>
         </div>
-      </Swiper>
-    </>
-  );
+        <div class="carousel-item">
+          <img src={img03} class="d-block w-10" alt="img02"/>
+        </div>
+        <div class="carousel-item">
+          <img src={img02} class="d-block w-10" alt="img03"/>
+        </div>
+      </div>
+    </div>
+  )
 }

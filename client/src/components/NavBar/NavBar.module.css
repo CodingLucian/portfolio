@@ -9,6 +9,8 @@
   justify-content: flex-start;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-variant: small-caps;
+  position: fixed;
+  z-index: 1;
 }
 
 .btn{
@@ -33,4 +35,11 @@
   font-size: medium;
   margin-left: 20px;
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+.lnk{
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+  border: 0px;
 }

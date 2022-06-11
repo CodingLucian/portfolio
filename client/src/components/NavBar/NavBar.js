@@ -3,6 +3,8 @@ import styles from './NavBar.module.css';
 import Resume from '../Resume/Resume.jsx';
 import { Modal } from '../Modal/Modal';
 import Contact from '../Contact/Contact';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -16,25 +18,34 @@ export default function NavBar() {
     setLocalModal((prevState) => !prevState);
   };
 
-  const handleContactClick = function (e) {
+  const handleClick = function (e) {
     // e.preventDefault();
     // setLocalModalContact((prevState) => !prevState);
-    const target = document.getElementById('contact');
+    const target = document.getElementById(e.target.name);
     target.scrollIntoView({ behavior: 'smooth' });
   };
+
+  
 
   return (
     <div className={styles.container}>
       <button className={styles.btn} onClick={(e)=>handleResumeClick(e)} name="resume">
         Resume
       </button>
-      <button className={styles.btn} onClick={(e)=>handleContactClick(e)} name="contact">
+      <button className={styles.btn} onClick={(e)=>handleClick(e)} name="contact">
         Contact me
       </button>
-      <button className={styles.btn}>
-        Photography
-      </button>
-      <button className={styles.btn}>
+      <Link to={'/photography'} className={styles.lnk}>
+        <button className={styles.btn}>
+          Photography
+        </button>
+      </Link>
+      <Link to={'/'} className={styles.lnk}>
+        <button className={styles.btn} onClick={(e)=>handleClick(e)} name="developer">
+          Developer
+        </button>
+      </Link>
+      <button className={styles.btn} onClick={(e)=>handleClick(e)} name="about">
         About me
       </button>
       {!!localModal && (

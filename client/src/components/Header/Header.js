@@ -6,7 +6,7 @@ const icons = technologies;
 
 export default function Header() {
   return (
-    <div className={styles.row}>
+    <div id='developer' className={styles.row}>
       <div className={styles.move}>
         <div className={styles.container}>
           <h1 className={styles.name}>Lucian Durietz</h1>
@@ -16,7 +16,7 @@ export default function Header() {
           <div className={styles.technologies}>Technologies</div>
           {
             icons.map((t)=>{
-              return <img key={t} className={styles.img} src={t}/>
+              return <img key={t} alt='imagen' className={styles.img} src={t}/>
             })
           }
         </div>

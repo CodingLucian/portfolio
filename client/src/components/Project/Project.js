@@ -15,11 +15,11 @@ export default function Project({txt, url, img, title, id, video/* , openModal *
       side ? (
         <div className={styles.container}>
           <div className={styles.halfTxt}>
-            <h1 className={styles.titleR}>{title}</h1>
+            <p className={styles.titleR}>{title}</p>
             <div>
               {txt} <br/>
               Watch presentation video 
-              <a href={video} target="_blank" rel="noreferrer nofollow"> here </a>
+              <a href={video} target="_blank" className={styles.nodeco} rel="noreferrer nofollow"> here </a>
             </div> 
           </div>
           <div className={styles.halfImg}>
@@ -36,11 +36,11 @@ export default function Project({txt, url, img, title, id, video/* , openModal *
             </a>
           </div>
           <div className={styles.halfTxt}>
-            <h1 className={styles.titleL}>{title}</h1>
+            <p className={styles.titleL}>{title}</p>
             <div>
               {txt} <br/>
               Watch presentation video 
-              <a href={video} target="_blank" rel="noreferrer nofollow"> here </a>
+              <a href={video} target="_blank" className={styles.nodeco} rel="noreferrer nofollow"> here </a>
             </div>
           </div>
         </div> 

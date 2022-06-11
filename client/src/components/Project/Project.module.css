@@ -24,13 +24,13 @@ hr{
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  font-style: italic;
+  font-weight: lighter;
   text-align: center;
 }
 
-.descriptionTxt{
-  font-style: italic;
-}
+/* .descriptionTxt{ */
+  /* font-style: italic; */
+/* } */
 
 .halfImg{
   position: relative;
@@ -55,13 +55,21 @@ hr{
 } 
 
 .titleR{
-  text-decoration: underline black;
-  /* text-align: right; */
+  /* text-decoration: 1px underline black; */
+  font-size: 2rem;
+  color: var(--dark-color);
+  text-align: center;
 }
 
 .titleL{
-  text-decoration: underline black;
-  /* text-align: left; */
+  /* text-decoration: 1px underline black; */
+  font-size: 2rem;
+  color: var(--dark-color);
+  text-align: center;
+}
+
+.nodeco{
+  text-decoration: none;
 }
 
 

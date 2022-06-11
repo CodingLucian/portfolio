@@ -1,14 +1,13 @@
-.container {
+.projectsContainer {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  /* border: 2px solid black; */
   align-items: center;
 }
 
 .titlethin{
-  font-weight: 100px;
-  font-style: italic;
+  font-weight: lighter;
+  margin-top: 40px;
 }
 
 .modal {

@@ -4,19 +4,19 @@ import styles from './Resume.module.css';
 export default function Resume() {
   return (
     <div className={styles.resumeContainer}>
-      <h1>Resume</h1>
+      <h1 className={styles.title}>Resume</h1>
       <div> 
           Full Stack Developer with design formation. Experience working with NodeJS, React, Redux, SQL among
           other related technologies. I worked on the frontend part of a team for the creation of an app for hostel
           booking and management.
       </div>
       <div>
-        <h2>TECHNOLOGIES</h2>
+        <h2 className={styles.subtitles}>TECHNOLOGIES</h2>
         HTML, CSS, Javascript, React, Redux, Node.js, Express, TypeScript, Illustrator, Photoshop, Adobe
         premiere, Adobe After Effects, Scrum.
       </div>
       <div>
-        <h2>PROJECTS</h2>
+        <h2 className={styles.subtitles}>PROJECTS</h2>
         <h3>Front End Developer - SoyHostel App - april. 2022.</h3> 
         <ul className={styles.txtLeft}>
           <li>
@@ -42,7 +42,7 @@ export default function Resume() {
         </ul>
       </div>
       <div>
-        <h2>
+        <h2 className={styles.subtitles}>
           PROFESSIONAL EXPERIENCE
         </h2>
         <h3>
@@ -109,7 +109,7 @@ export default function Resume() {
         </ul>
       </div>
       <div>
-        <h2>
+        <h2 className={styles.subtitles}>
           PROFESSIONAL EDUCATION
         </h2>
         <ul className={styles.txtLeft}>
@@ -125,7 +125,7 @@ export default function Resume() {
         </ul>
       </div>
       <div>
-        <h2>
+        <h2 className={styles.subtitles}>
           LANGUAGES
         </h2>
         <ul className={styles.txtLeft}>

@@ -1,20 +1,14 @@
-import React/* , { useState } */ from 'react';
+import React from 'react';
 import Project from '../Project/Project';
 import styles from './Projects.module.css';
 import projectsData from '../../data/projects.json'
-// import { Modal } from '../Modal/Modal';
-// import SoyHostel from '../SoyHostel/SoyHostel';
+
 
 export default function Projects() {
   let id = 10;
-  // const [localModal, setLocalModal] = useState(false);
-
-  // const openModal = () =>{
-  //   setLocalModal((prevState) => !prevState);
-  // }
   return (
-    <div className={styles.container}>
-      <h1 className={styles.titlethin}>Somples of my work:</h1>
+    <div className={styles.projectsContainer}>
+      <h1 className={styles.titlethin}>Samples of my work:</h1>
       {
         
         projectsData.map((p)=> {

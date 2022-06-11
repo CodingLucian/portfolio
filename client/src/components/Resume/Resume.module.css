@@ -12,12 +12,12 @@
   text-align: left;
   /* margin-left: 10vw;
   margin-right: 10vw; */
-}
+} 
 
-h2{
+.subtitles{
   text-decoration: underline;
 }
 
-h1{
+.title{
   text-decoration: underline;
 }
