@@ -7,18 +7,9 @@ import img03 from '../../images/photos/03.JPG';
 
 export default function Slider() {
   return (
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src={img01} class="d-block w-10" alt="img01"/>
-        </div>
-        <div class="carousel-item">
-          <img src={img03} class="d-block w-10" alt="img02"/>
-        </div>
-        <div class="carousel-item">
-          <img src={img02} class="d-block w-10" alt="img03"/>
-        </div>
-      </div>
+    <div className={styles.container}>
+      <img src={img01} className={styles.photo} alt="img01"/>
+      <span className={styles.workinprogres}>UNDER CONSTRUCTION</span>
     </div>
   )
 }

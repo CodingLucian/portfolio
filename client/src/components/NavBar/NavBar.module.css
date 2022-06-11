@@ -43,3 +43,7 @@
   align-self: center;
   border: 0px;
 }
+
+.tachado{
+  text-decoration: line-through;
+}

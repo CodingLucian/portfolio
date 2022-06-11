@@ -7,9 +7,25 @@
   margin: auto;
 }
 
+.photo{
+  position: relative;
+  width: 400px;
+  height: auto;
+  top: px;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.workinprogres{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 15%;
+  color: white;
+  font-size: 100px;
 }
 
 /* Next & previous buttons */
@@ -84,4 +100,8 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.container{
+  background-color: blanchedalmond;
 }

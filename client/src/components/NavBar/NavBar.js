@@ -37,7 +37,7 @@ export default function NavBar() {
       </button>
       <Link to={'/photography'} className={styles.lnk}>
         <button className={styles.btn}>
-          Photography
+          <span className={styles.tachado}>Photography</span>
         </button>
       </Link>
       <Link to={'/'} className={styles.lnk}>
