@@ -38,19 +38,22 @@ export default function NavBar() {
         Resume
       </button>
       <button className={styles.btn} onClick={(e)=>handleClick(e)} name="contact">
-        Contact me
+        Contact
       </button>
       <button className={styles.btn} onClick={(e)=>handleClick(e)} name="about">
-        About me
+        About
       </button>
       <Link to={'/photography'} className={styles.lnk}>
         <button className={styles.btn}>
           <span className={styles.tachado}>Photography</span>
         </button>
       </Link>
-      <button className={styles.end}>
+      
+      {/* ********************** agregar modo oscuro ****************** */}
+      
+      {/* <button className={styles.end}>
         <i className="bi bi-eye"></i>
-      </button>
+      </button> */}
       
       {!!localModal && (
         <Modal setLocalModal={setLocalModal}>

@@ -15,7 +15,7 @@
 
 .btn{
   width: fit-content;
-  height: fit-content;
+  height: 20px;
   background-color: rgba(231, 231, 208, 1);
   border-radius: 5px;
   align-self: center;
@@ -64,4 +64,24 @@
 
 .end:hover{
   background-color: rgba(255, 255, 235, 1);
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(245, 245, 245);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    position: fixed;
+    z-index: 1;
+    padding-right: 20px;
+  }
+
+  
 }
