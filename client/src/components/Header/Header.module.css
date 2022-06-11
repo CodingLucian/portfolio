@@ -92,6 +92,21 @@
 }
 
 @media screen and (max-width: 600px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    width: 100vw;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
   .move{
     display: flex;
     flex-direction: column;
@@ -116,10 +131,14 @@
   }
 
   .imgContainer{
+    width: 300px;
     margin-right: 0rem;
+    margin-left: 0rem;
+    padding-right: 0px;
+    padding-left: 0px;
     align-self: center;
     border: 1px solid black;
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.3);
   }
