@@ -47,3 +47,21 @@
 .tachado{
   text-decoration: line-through;
 }
+
+.end{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  center;
+  background-color: rgba(231, 231, 208, 1);
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 3px;
+  right: 25px;
+  border-radius: 50%;
+}
+
+.end:hover{
+  background-color: rgba(255, 255, 235, 1);
+}

@@ -48,6 +48,10 @@ export default function NavBar() {
       <button className={styles.btn} onClick={(e)=>handleClick(e)} name="about">
         About me
       </button>
+      <button className={styles.end}>
+        <i className="bi bi-eye"></i>
+      </button>
+      
       {!!localModal && (
         <Modal setLocalModal={setLocalModal}>
           <Resume />
