@@ -1,6 +1,6 @@
 .container{
   width: 100vw;
-  height: 30px;
+  min-height: 30px;
   background-color: rgb(66, 66, 66);
   color: rgb(245, 245, 245);
   display: flex;
@@ -68,8 +68,8 @@
 
 @media screen and (max-width: 600px) {
   .container{
-    width: 100vw;
-    height: 60px;
+    width: 100vw; 
+    height: fit-content;
     background-color: rgb(66, 66, 66);
     color: rgb(245, 245, 245);
     display: flex;
