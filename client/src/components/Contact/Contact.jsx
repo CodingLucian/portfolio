@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className={styles.contactMain}>    
       <p className={styles.title}>
-        CONTACT ME 
+        CONTACT ME  
       </p>
       <div id='contact' className={styles.contactMainContainer}>
         <div className={styles.info}>

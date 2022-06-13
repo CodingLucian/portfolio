@@ -56,7 +56,7 @@ export default function ContactForm() {
     });
   };
 
-
+ 
   return (
     <div className={styles.mainContainer}>
       <div className={styles.formulario}>
@@ -65,6 +65,7 @@ export default function ContactForm() {
             {/* nombre */}
             <label>Your name: </label>
             <input
+              className={styles.inputarea}
               type={'text'}
               name={'name'}
               onChange={(e) => handleChange(e)}
@@ -77,6 +78,7 @@ export default function ContactForm() {
             {/* Email */}
             <label htmlFor="email">Your Email: </label>
             <input
+              className={styles.inputarea}
               type="text"
               id="email"
               name="email"
