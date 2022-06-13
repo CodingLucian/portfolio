@@ -14,9 +14,8 @@ export default function Project({txt, url, img, title, id, video/* , openModal *
 
   return (
     <>{
-      intFrameWidth >=600 ? (
+      intFrameWidth >=600 ? ( 
       side ? (
-        
         <div className={styles.container}>
           {/* <hr style="height:2px;border-width:0;color:gray;background-color:gray"></hr> */}
           <div className={styles.halfTxt}>

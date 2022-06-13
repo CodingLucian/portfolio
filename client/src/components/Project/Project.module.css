@@ -1,6 +1,7 @@
 .container{
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 90vw;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -34,7 +35,7 @@ hr{
 }
 
  .img{
-  width: 650px;
+  max-width: 40vw;
   height: auto;
   border-radius: 25px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0,0.3);
@@ -96,7 +97,7 @@ hr{
     flex-direction: column;
     align-content: center;
     justify-content: center; */
-  }
+  } 
   .txt{
     min-width: 90vw;
     text-align: center;
