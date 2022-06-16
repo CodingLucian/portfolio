@@ -43,11 +43,13 @@ export default function NavBar() {
       <button className={styles.btn} onClick={(e)=>handleClick(e)} name="about">
         About
       </button>
-      <Link to={'/photography'} className={styles.lnk}>
+      {/* <Link to={'/photography'} className={styles.lnk}> */}
+      <a href='https://www.eyeem.com/u/luciancristobal' target="_blanck" rel="noreferrer nofollow">
         <button className={styles.btn}>
-          <span className={styles.tachado}>Photography</span>
+          {/* <span className={styles.tachado}> */}Photography{/* </span> */}
         </button>
-      </Link>
+      </a> 
+      {/* </Link> */}
       
       {/* ********************** agregar modo oscuro ****************** */}
       
